@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Register</title>
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/queries.css">
+    <link rel="icon" href="../../assets/branding/icon.png">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'>
+</head>
+<body>
+    <nav>
+        <img src="../../assets/branding/logo.png" alt="" class="logo">
+        <a href="../../index.html" class="btn">Back</a>
+    </nav>
+
+    <main>
+        <div class="first container">
+            <div class="col wrapper">
+                <img src="../../assets/branding/logo.png" alt="" class="small logo">
+                <form class="col wrapper">
+                    <input type="email" name="user_email" placeholder="Email" required>
+                    <input type="password" name="user_password" placeholder="Password" required>
+                    <input type="password" name="user_password_confirmation" placeholder="Confirm Password" required>
+                    <ul class="row">
+                        <li>
+                            <ul class="checkbox">
+                                <li><input type="checkbox" name="remember_user_password" id="remember"></li>
+                                <li><label for="remember">Keep me updated</label></li>              
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="../extras/login.html">Have an account? Login</a>
+                        </li>
+                    </ul>
+                    <button type="submit" class="btn alt">Register</button>
+                </form>
+                <img src="../../assets/icons/or.png" alt="" class="text medsmall">
+                <ul class="row wrapper" style="gap: 2em;">
+                    <a class="icon btn"><i class="fi fi-brands-apple"></i></a>
+                    <a class="icon btn"><i class="fi fi-brands-google"></i></a>                    
+                </ul>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
